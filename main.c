@@ -43,4 +43,23 @@ char symbol;
 	scanf("%d", &n1);
 	printf("Choisissez un nombre entier : \n");
 	scanf("%d", &n2);
+if(symbol == 43)
+	{
+		int resultat = n1 + n2;
+	}
+	else if(symbol == 42)
+	{
+		int resultat = n1 * n2;
+	}
+	else if(symbol == 45)
+	{
+		int resultat = n1 - n2;
+	}
+	else if(symbol == 47)
+	{
+		double resultat = n1 / n2;
+	}
+
+
+
 }
