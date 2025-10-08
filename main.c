@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
-int n2 
-int n2 
 
-int main {
+
+int main(){
+
+int n1; 
+int n2;
+
+
 char symbol;
 
 	printf("Choisissez une opération : +, -, *, /, %% : \n");
