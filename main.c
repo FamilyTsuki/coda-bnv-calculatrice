@@ -39,7 +39,7 @@ char symbol;
 	}
 
 
-		printf("Choisissez un nombre entier : \n");
+	printf("Choisissez un nombre entier : \n");
 	scanf("%d", &n1);
 	printf("Choisissez un nombre entier : \n");
 	scanf("%d", &n2);
@@ -53,21 +53,21 @@ printf("%d %c %d = %d\n", n1, symbol, n2, resultat);
 	else if(symbol == 42)
 	{
 		int resultat = n1 * n2;
-printf("%d %c %d = %d\n", n1, symbol, n2, resultat);
+		printf("%d %c %d = %d\n", n1, symbol, n2, resultat);
 
 
 	}
 	else if(symbol == 45)
 	{
 		int resultat = n1 - n2;
-printf("%d %c %d = %d\n", n1, symbol, n2, resultat);
+		printf("%d %c %d = %d\n", n1, symbol, n2, resultat);
 
 
 	}
 	else if(symbol == 47)
 	{
 		float resultat = n1 / n2;
-printf("%d %c %d = %.2f\n", n1, symbol, n2, resultat);
+		printf("%d %c %d = %.2f\n", n1, symbol, n2, resultat);
 
 
 	}
